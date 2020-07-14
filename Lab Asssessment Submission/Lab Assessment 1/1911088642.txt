@@ -1,0 +1,59 @@
+===Database employee
+
+== Table structure for table employee
+
+|------
+|Column|Type|Null|Default
+|------
+|//**Employee_Id**//|int(10)|No|
+|First_Name|varchar(20)|Yes|NULL
+|Last_Name|varchar(20)|No|
+|Email|varchar(25)|No|
+|Phone_Number|varchar(15)|Yes|NULL
+|Hire_Date|date|No|
+|Job_Id|varchar(10)|No|
+|Salary|int(8)|Yes|NULL
+|Commission_pct|int(2)|Yes|NULL
+|Manager_Id|int(6)|Yes|NULL
+|Department_Id|int(4)|Yes|NULL
+== Dumping data for table employee
+
+|1234|Tanjim|Islam|tanjimislam@gmail.com|019XXXXXXXX|2000-02-03|12340|50000|25|91119|42
+|1415|Tanjim|Islam|tanjimislam@gmail.com|1911111111|2000-08-02|12340|50000|25|91119|642
+|1416|Tahmid|Hossain|tahmidhossain@gmail.com|1811111111|2000-10-01|12440|45000|20|91119|642
+|1417|Tasnia|Islam|tasniaislam@gmail.com|1711111111|2000-03-01|12450|40000|15|91119|642
+
+
+===Database employee
+
+== Table structure for table department
+
+|------
+|Column|Type|Null|Default
+|------
+|//**Department_Id**//|int(10)|No|
+|Demartment_Name|varchar(30)|No|
+|Department_Location|varchar(30)|No|
+== Dumping data for table department
+
+|42|BBA|Uttara 1230
+|192|Pharmacy|MohaKhkali
+|642|ECE|Banani 
+
+
+
+===Database employee
+
+== Table structure for table address
+
+|------
+|Column|Type|Null|Default
+|------
+|//**Department_Location**//|varchar(50)|No|
+|Road_No|varchar(20)|Yes|NULL
+|House_No|varchar(20)|Yes|NULL
+== Dumping data for table address
+
+|Banani|B 19|37
+|Mohakhali|C 33|7
+|Uttara 1230|A 14|18
