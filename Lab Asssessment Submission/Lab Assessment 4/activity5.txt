@@ -1,0 +1,2 @@
+SELECT e.LAST_NAME "Employee", EMPLOYEE_NUMBER "Emp", MANAGER_NAME "Manager", MANAGER_NUMBER "Mgr"
+FROM employee
