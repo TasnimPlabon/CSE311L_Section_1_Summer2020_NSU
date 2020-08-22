@@ -1,0 +1,4 @@
+SELECT  MAX (SALARY) AS 'MAX SAL', MIN (SALARY) 'MIN SAL',
+SUM(SALARY) AS 'SUM', AVG (SALARY) AS 'AVG'
+FROM employee
+table1.job= table2.job
