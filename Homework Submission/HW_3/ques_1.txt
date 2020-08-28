@@ -1,0 +1,3 @@
+SELECT Last_Name, (Salary/30)
+AS 'Daily Salary', Department_ID
+FROM employees

@@ -1,0 +1,3 @@
+SELECT CONCAT(Last_Name, ", ",Department_ID) 
+AS "Employee and Title"
+FROM employees
