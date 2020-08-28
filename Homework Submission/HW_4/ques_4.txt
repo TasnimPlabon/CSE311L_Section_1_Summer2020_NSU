@@ -1,0 +1,4 @@
+SELECT concat(First_Name,' ',Last_Name),
+Job_Id, COUNT(*)
+FROM employees
+GROUP BY Job_Id

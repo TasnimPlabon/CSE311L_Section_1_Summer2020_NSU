@@ -1,0 +1,6 @@
+SELECT
+d.Department_Name "Name", d.Location_id "Location ", COUNT(*) "Number of People",
+ROUND(AVG(Salary),2) "Salary"
+FROM employees e, departments d
+WHERE e.Department_ID = d.Department_ID
+GROUP BY d.Department_Name, d.Location_id

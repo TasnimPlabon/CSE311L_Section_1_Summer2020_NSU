@@ -1,0 +1,4 @@
+SELECT Last_Name, Salary
+FROM employees
+WHERE Commission_pct IS NULL
+ORDER BY Salary AND Commission_pct DESC
